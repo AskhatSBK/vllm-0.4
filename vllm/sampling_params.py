@@ -245,7 +245,8 @@ class SamplingParams(
         output_kind: RequestOutputKind = RequestOutputKind.CUMULATIVE,
         guided_decoding: Optional[GuidedDecodingParams] = None,
         logit_bias: Optional[Union[dict[int, float], dict[str, float]]] = None,
-         ignore_cjk: bool = True,
+        
+        ignore_cjk: bool = True,
         allowed_token_ids: Optional[list[int]] = None,
         extra_args: Optional[dict[str, Any]] = None,
     ) -> "SamplingParams":

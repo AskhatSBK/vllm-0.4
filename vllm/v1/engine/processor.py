@@ -291,6 +291,7 @@ class Processor:
         else:
             pooling_params = params.clone()
 
+
         ###
         if sampling_params.ignore_cjk:
             try:
