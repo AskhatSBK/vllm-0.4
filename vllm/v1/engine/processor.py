@@ -304,8 +304,8 @@ class Processor:
         # English letters
                 allowed_chars.update(chr(c) for c in range(ord('a'), ord('z') + 1))
                 allowed_chars.update(chr(c) for c in range(ord('A'), ord('Z') + 1))
-        # Cyrillic letters (includes Russian and Kazakh)
-                allowed_chars.update(chr(c) for c in range(0x0400, 0x0500))
+        # # Cyrillic letters (includes Russian and Kazakh)
+        #         allowed_chars.update(chr(c) for c in range(0x0400, 0x0500))
 
                 banned_token_ids = []
 
